@@ -1,0 +1,9 @@
+slowml_pytorch:
+  image: stepankuzmin/pytorch-notebook
+  ports:
+    - "8888:8888"
+    - "6006:6006"
+  volumes:
+    - ../../:/home/jovyan/work/SlowML
+  command: start-notebook.sh 
+  tty: true
