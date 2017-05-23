@@ -11,7 +11,7 @@
 * 그리고 contatiner를 생성하여 실행시켜야 되지만...
 * 편하게 docker-compose를 써보자.(2번으로 바로 넘어가서 쭉 해보면 된다)
 
-# 2. 실습을 위한 바벨파이 깃헙 레파지토리 cloning 
+# 2. 실습을 위한 슬로우ML 깃헙 레파지토리 cloning 
 * 저장소 주소 
   - https://github.com/psygrammer/SlowML.git
 * 자기 컴퓨터로 가져온다. 
@@ -28,6 +28,8 @@
 * 다음의 명령어를 실행 
   - docker-compose up
 * 그러면 터미널창에서 노트북이 실행되면서 로그인 토큰까지 결합된 접속 주소가 로그에 나타난다.  
+<img src="https://cloud.githubusercontent.com/assets/1955312/26346251/908da5e2-3fe0-11e7-974c-deb71a38d2a1.png" />
+
 * 여기까지 했으면 해당 url을 통해 jupyter notebook에 접근할 수 있게 된다.
   - 예시) http://localhost:8888/?token=770b8c18096b35053ee827f5d16f830762bf29d4f6374e4b
   - 만약 docker toolbox로 환경을 구축한 사람들은 해당 가상 아이피:8888 로 접속해야 한다.
